@@ -6,7 +6,7 @@
 
 
 :root{
-background-color: #bbcfff;
+background-color: white;
 font-size: 16px;
 }
 
@@ -33,16 +33,16 @@ font-size: 16px;
 }
 
 .individualFeedCard{
-  border: 1px solid #ff896b;
-  border-radius: 15px;
-  background-color: #ff896b;
+  border: 1px solid #333333;
+  border-radius: 0px;
+  background-color: #333333;
   margin:10px 2px;
 }
 
 .individualFeedHeading{
-  border: 1px solid #35495e;
-  background-color: #35495e;
-  border-radius: 15px;
+  border: 1px solid #333333;
+  background-color: #333333;
+  border-radius: 0px;
   text-align: center;
   font-size: 1.5rem;
   color:aliceblue;
@@ -51,9 +51,9 @@ font-size: 16px;
 }
 
 .individualFeedParagraph{
-  border: 1px solid #2c786c;
-  border-radius: 15px;
-  background-color: #2c786c;
+  border: 1px solid #bbcfff;
+  border-radius: 5px;
+  background-color: #bbcfff;
   margin:5px auto;
   padding:5px;
   font-size: 1.1rem;
@@ -68,10 +68,11 @@ font-size: 16px;
   font-weight: 700;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin:1px auto;
+  color: #f6e1e1;
 }
 
 .likeButton{
-  border: 1px solid #ff896b;
+  border: 1px solid #678a74;
   outline: none;
   display: block;
   text-align: center;
@@ -117,7 +118,7 @@ font-size: 16px;
   border: 1px solid #35495e;
    display: block;
    margin:10px auto;
-   background-color: #35495e;
+   background-color: #bbcfff;
    font-size: 1.2rem;
    padding:5px;
   font-weight: 700;

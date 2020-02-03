@@ -4,6 +4,8 @@ class Input extends Component {
 
     constructor(props) {
         super(props)
+
+        
     
         this.state = {
              likeCount : 0,
@@ -35,7 +37,7 @@ class Input extends Component {
 
     addCommentToarrayOfComments (){         // not working as a normal function
 
-        if(this.state.comment){
+        if(this.state.comment && this.state.name){
 
             var commentAndNameObject = {
                 comment : this.state.comment,
